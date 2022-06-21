@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "solutions and tests for neetcode challenge prompts",
   "main": "",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
 }
