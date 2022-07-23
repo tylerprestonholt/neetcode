@@ -1,3 +1,5 @@
 import { isValid } from "../../solutions/stack/validParentheses";
 
-describe("testing isValid", () => {});
+describe("testing isValid", () => {
+  it("", () => {});
+});
